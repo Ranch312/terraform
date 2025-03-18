@@ -1,7 +1,7 @@
 #! /bin/bash
 mkdir terraform-conf
 cd terraform-conf
-curl -LO https://raw.github.com/robertpeteuil/terraform-installer/master/terraform->
+curl -LO https://raw.github.com/robertpeteuil/terraform-installer/master/terraform-install.sh
 apt-get install unzip
 chmod +x terraform-install.sh
 ./terraform-install.sh
